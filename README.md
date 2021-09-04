@@ -2,8 +2,8 @@
 A two-screen app that provides the weather forecast for a particular city that the user is looking for.
 The app allows you to select favorite cities and save them for display on a separate screen in a centralized manner.
 
-![demo](blob:https://giphy.com/5fc2a065-3125-4ad1-9cb6-25d378d62e3a)
-
+![demo](https://i.ibb.co/mqxXwXJ/zoom-0-2-online-video-cutter-com.gif)
+https://i.ibb.co/mqxXwXJ/zoom-0-2-online-video-cutter-com.gif
 
 
 ## 🏁 Technology Stack
