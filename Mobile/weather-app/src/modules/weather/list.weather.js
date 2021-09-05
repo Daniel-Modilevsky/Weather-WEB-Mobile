@@ -45,6 +45,8 @@ const TrackList = (props) => {
   });
 
   const [currentCityName, setCurrentCityName] = useState(weatherStoredName);
+  const [textInput, setTextInput] = useState("Tel Aviv");
+
   const [currentCityKey, setCurrentCityKey] = useState("215854");
   const [weather5Days, setWeather5Days] = useState([
     {
@@ -200,11 +202,11 @@ const TrackList = (props) => {
   };
 
   function searchHandler(inputText) {
-    setCurrentCityName(inputText);
-    setterInput(currentCityName);
+    setTextInput(inputText);
   }
 
   function submitHandler() {
+    setCurrentCityName(textInput);
     getCity();
   }
 
@@ -213,7 +215,7 @@ const TrackList = (props) => {
       <SearchBar
         placeholder="Type Here..."
         onChangeText={searchHandler}
-        value={currentCityName}
+        value={textInput}
       />
       <Pressable onPress={submitHandler} onLongPress={submitHandler}>
         <Button

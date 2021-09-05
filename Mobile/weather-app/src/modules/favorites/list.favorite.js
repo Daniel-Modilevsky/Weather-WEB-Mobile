@@ -11,9 +11,10 @@ function mapStateToProps(state) {
 
 const FavoriteshList = (props)=>{
     const {favorites} = props;
+    const {navigation} = props;
     return (
         <View style={{padding: 30}}>
-            {favorites.map((item,index)=> { return <Favorite key={item.cityName} index={index} favoriteData={item} /> })}
+            {favorites.map((item,index)=> { return <Favorite key={item.cityName} navigation={navigation} index={index} favoriteData={item} /> })}
         </View>
     )
 }

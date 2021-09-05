@@ -5,7 +5,7 @@ import FavoriteshList from "../modules/favorites/list.favorite";
 const FavoriteScreen = ({ navigation }) => {
   return (
     <View style={styles.screen}>
-      <FavoriteshList/>
+      <FavoriteshList navigation={navigation}/>
     </View>
   );
 };
