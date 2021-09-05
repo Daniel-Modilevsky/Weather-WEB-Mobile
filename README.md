@@ -2,9 +2,9 @@
 A two-screen app that provides the weather forecast for a particular city that the user is looking for.
 The app allows you to select favorite cities and save them for display on a separate screen in a centralized manner.
 
-https://i.ibb.co/mqxXwXJ/zoom-0-2-online-video-cutter-com.gif
-![Alt Text](https://i.ibb.co/mqxXwXJ/zoom-0-2-online-video-cutter-com.gif)
 
+## Demo
+https://i.ibb.co/mqxXwXJ/zoom-0-2-online-video-cutter-com.gif
 
 
 ## 🏁 Technology Stack
@@ -32,6 +32,7 @@ https://i.ibb.co/mqxXwXJ/zoom-0-2-online-video-cutter-com.gif
 - Favorite screen - Show all my favorites city weathers.
 ![demo](https://i.ibb.co/YTz0TfZ/screen1.png)
 ![demo](https://i.ibb.co/CKSWdmG/screen2.png)
+![demo](https://i.ibb.co/rtL4ZZz/mobile-Screens.png)
 
 
 ## 🏃‍ Local Installation
@@ -42,8 +43,8 @@ or download.
 3. $npm start.
 4. $cd ../../Mobile
 5. $npm start.
-6. $download expo ('on the link in technolegy stacks');
-7. run application
+6. $download expo ('on the link in technolegy stacks') on phone;
+7. run application (cross platform, working on android and ios)
 
 
 ## ‍ Thanks and enjoy the application
